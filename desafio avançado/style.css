@@ -1,0 +1,154 @@
+body{
+  background: #2F2E41;
+  color: white;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1280px;
+ 
+  padding-top: 65px;
+
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+ 
+ul{
+  list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  gap: 64px;
+}
+
+
+
+header{
+  
+  height: 30px;
+  width: 1083px;
+  left: 99px;
+  top: 71px;
+  border-radius: 0px;
+
+}
+
+
+main{
+  height: 283px;
+  width: 1092px;
+  left: 99px;
+  top: 202px;
+  border-radius: 0px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 82px;
+}
+
+#hero{
+  display: flex;
+    flex-direction: column;
+}
+
+h1{
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  width: 609px;
+  height: 40px;
+  left: 577px;
+  top: 208px;
+  border-radius: nullpx;
+
+}
+span{
+  color:
+  #00BFA6;
+}
+
+p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #C2C2C2;
+
+  height: 168px;
+  width: 604px;
+  left: 582px;
+  top: 307px;
+  border-radius: nullpx;
+
+}
+
+
+image{
+
+  width: 401px;
+  height: 283px;
+  left: 99px;
+  top: 202px;
+}
+
+footer{
+  display: flex;
+    justify-content: space-evenly;
+  width: 1092px;
+  height: 68px;
+  left: 356px;
+  top: 642px;
+text-align: center;
+
+  display: flex;
+    flex-direction: row-reverse;
+}
+#line{
+
+width: 568px;
+height: 0px;
+left: 356px;
+top: 642px;
+
+border: 1px solid #00BFA6;
+}
+
+h4{
+  font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 28px;
+
+}
+a{
+  color: white;
+
+}
+#padlock{
+  position: absolute;
+
+  height: 62px;
+  width: 51px;
+  left: 20px;
+  top: 615px;
+  border-radius: 0px;
+
+}
